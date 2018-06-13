@@ -1,0 +1,62 @@
+body {
+                background: rgb(55, 153, 255);
+                color:rgb(45, 45, 45);
+                padding: 10px;
+                font-family: Georgia;
+            }
+            header {
+                font-size: 1.5em;
+                font-weight: bold;
+            }
+            #all-contents {
+                max-width: 800px;
+                margin: auto;
+            }
+    
+            /* navigation menu */
+            nav {
+                background: rgb(0, 0, 0);
+                margin: 0 auto;
+                display: flex;
+                padding: 15px;
+                
+            }
+            nav header {
+                display: flex;
+                align-items: center;
+                color: rgb(255, 255, 255);
+                flex: 1;
+            }
+            nav ul {
+                list-style-image:none;
+            }
+            nav li {
+                display: inline-block;
+                padding: 0px 10px;
+            }
+            nav a {
+                text-decoration: fantasy;
+                color: #fff;
+            }
+    
+            /* main container area beneath menu */
+            main {
+                background: rgb(55, 153, 255);
+                color:white;
+            }
+            .sidebar {
+                margin-right:5px;
+                padding: 20px;
+            }
+            .sidebar  img  {
+                 border-radius:5% 10%; 
+                width: 200px 
+                }
+            .content {
+                flex: 1;
+                padding: 45px;
+            }
+            .interests header {
+                font-size: 1.25em;
+            }
+            
