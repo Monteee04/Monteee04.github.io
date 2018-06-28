@@ -26,7 +26,7 @@
     platform.init = function (game) {
         ////////////////////////////////////////////////////////////////////////
         // ALL YOUR CODE GOES BELOW HERE ///////////////////////////////////////
-       
+       platform.create(0, game.world.height - 32, 3,2);
         /*
          * ground : here, we create a floor. Given the width of of the platform 
          * asset, giving it a scaleX and scaleY of 2 will stretch it across the 
@@ -40,7 +40,7 @@
         platform.create(300, 360);
         platform.create(400, 460);
         platform.create(500, 560);
-        platform.create(600, 660);
+        
        
        
         
